@@ -5,7 +5,7 @@ import {
   createExpense,
   getAllExpenses,
   deleteExpense,
-} from "./database.js";
+} from "./database/database.js";
 import { parseExpense } from "./services/aiService.js";
 
 const app = express();
@@ -23,12 +23,10 @@ app.post("/api/expenses", async (req, res) => {
       return res.status(400).json({ success: false, error: parsed.error });
 
     const result = createExpense({ ...parsed, original_input: input });
-    res
-      .status(201)
-      .json({
-        success: true,
-        expense: { id: result.lastInsertRowid, ...parsed },
-      });
+    res.status(201).json({
+      success: true,
+      expense: { id: result.lastInsertRowid, ...parsed },
+    });
   } catch (error) {
     res
       .status(500)
