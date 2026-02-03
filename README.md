@@ -8,13 +8,7 @@ Time to build: [2.0 Hours] (with AI assistance)
 
 ## 🎥 Demo
 
-[Click here to watch the Video Demo](./assets/)
-<p align="center">
-  <video src="./assets/AI Expense Tracker.webm" width="400" controls>
-    Your browser does not support the video tag. 
-    <a href="./assets/AI Expense Tracker.webm">Click here to download/watch the video.</a>
-  </video>
-</p>
+Demo Video Link: [AI Expense Tracker](https://vimeo.com/1161375953?share=copy&fl=sv&fe=ci)
 
 ## 🛠️ Tech Stack
 
