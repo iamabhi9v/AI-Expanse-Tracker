@@ -8,7 +8,7 @@ Time to build: [2.0 Hours] (with AI assistance)
 
 ## 🎥 Demo
 
-Demo Video Link: [AI Expense Tracker](https://vimeo.com/1161375953?share=copy&fl=sv&fe=ci)
+Demo Video Link: [AI Expense Tracker](https://youtube.com/shorts/gtknIXvkoEs?si=ELi-LR4Zw2h_zccs)
 
 ## 🛠️ Tech Stack
 
